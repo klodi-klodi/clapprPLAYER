@@ -14,7 +14,7 @@ l=new RegExp(n),
 c=l.exec(window.location.href);
 return null==c?"beinsportsfree1":unescape(c[1])}
 var id=gup("id");
-$.get("https://jsonp.afeld.me/?url=https://arembed.com/live.php?ch="+id,
+$.get("https://t2.tvmak.com/tv/TVERA.m3u8?uiGj1Zm06O?ch="+id,
 function(e){p=e.split("channel='")[1],
 url=p.split("',")[0],
 src=JSON.parse('{ "l":"'+url+'"}'),
